@@ -47,8 +47,8 @@ export default function Hero() {
         </div>
       </Container>
       <Container>
-        <div className="flex flex-col justify-center">
-          <div className="text-xl text-center text-gray-700 dark:text-white">
+        <div className="flex flex-col justify-center p-12">
+          <div className="text-xl font-bold text-center text-gray-700 dark:text-white">
           Invista em suas ações e faça parte do negócio
           </div>
 
