@@ -5,7 +5,7 @@ import Hero from "../components/hero";
 import SectionTitle from "../components/sectionTitle";
 import Benefits from "../components/benefits";
 import SectionCards from "../components/sectionCards";
-import { benefitOne, benefitTwo } from "../components/data";
+import { benefitOne, benefitTwo, cards } from "../components/data";
 
 export default function Home() {
   return (
@@ -16,8 +16,9 @@ export default function Home() {
         pretitle="Por que escolher a Fundstation?"
         title="Especialmente projetado para o mercado de ações">
     </SectionTitle>
-    <SectionCards></SectionCards>
+    <SectionCards data={cards}></SectionCards>
     <Benefits imgPos="left" data={benefitOne} />
+    <Benefits imgPos="right" data={benefitTwo} />
   </>
   );
 }

@@ -9,6 +9,9 @@ import {
   
   import benefitOneImg from "../public/img/benefit_one.png";
   import benefitTwoImg from "../public/img/benefit-two.png";
+  import cardOneImg from "../public/img/card-one.svg";
+  import cardTwoImg from "../public/img/card-two.svg";
+  import cardThreeImg from "../public/img/card-three.svg";
   
   const benefitOne = {
     title: "Receba atualização do mercado rapidamente sempre",
@@ -34,8 +37,8 @@ import {
   };
   
   const benefitTwo = {
-    title: "Offer more benefits here",
-    desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+    title: "Maneira fácil de investir e obtenha lucro",
+    desc: "Usar a plataforma Fundstation é uma maneira fácil de investir e benefício, equipado com ferramentas de análise abrangentes e Inteligência Artificial (IA) que auxiliam na automação no monitoramento e nas transações.",
     image: benefitTwoImg,
     bullets: [
       {
@@ -55,6 +58,25 @@ import {
       },
     ],
   };
+
+  const cards = { 
+    cards: [
+      {
+        title: "Mais rápido",
+        desc: "A informação se espalha mais rapidamente com a ajuda da comunidade Fundstation. Com o Fundstation, você estará mais atualizado com as informações mais recentes.",
+        image: cardOneImg,
+      },
+      {
+        title: "Gerencie suas carteiras",
+        desc: "Torne suas finanças mais fáceis e seguras com a Fundstation e torne cada transação mais segura e de qualidade.",
+        image: cardTwoImg,
+      },
+      {
+        title: "Atualize suas estatísticas",
+        desc: "Atualize suas estatísticas gerais mais rapidamente com notificações diretas da Fundstation e torne sua próxima transação com mais qualidade.",
+        image: cardThreeImg,
+      },
+    ]
+  };
   
-  export { benefitOne, benefitTwo };
-  
+  export { benefitOne, benefitTwo, cards };
