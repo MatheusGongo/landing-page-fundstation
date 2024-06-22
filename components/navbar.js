@@ -4,7 +4,7 @@ import ThemeChanger from "./DarkSwitch";
 import { Disclosure } from "@headlessui/react";
 
 export default function Navbar() {
-  const navigation = ["Sobre nó", "Recursos", "Por que a Fundstation?"];
+  const navigation = ["Sobre nós", "Recursos", "Por que a Fundstation?"];
 
   return (
     <div className="w-full bg-white">
@@ -53,13 +53,7 @@ export default function Navbar() {
 
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
-                    {navigation.map((item, index) => (
-                      <Link key={index} href="/" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-[#0966AF] focus:text-[#0966AF] focus:bg-blue-100 focus:outline-none dark:focus:bg-trueGray-700">
-                        
-                          {item}
-                       
-                      </Link>
-                    ))}
+
                     <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-[#2196F3] rounded-md hover:bg-[#0966AF] transition lg:ml-5">
                       
                         Entrar
